@@ -6,7 +6,7 @@ import CanvasAnimation from "../components/ThreeAnim"
 const IndexPage = () => {
   return (
     <body>
-      <CanvasAnimation/>
+      <CanvasAnimation />
       <main>
         <div className="header">
           <h1>Holaaaaaa</h1>
