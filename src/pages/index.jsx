@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import CanvasAnimation from "../components/ThreeAnimation"
-// import AboutMe from "../components/AboutMe"
-// import Contact from "../components/Contact"
-// import Blog from "../components/Blog"
+import AboutMe from "../components/AboutMe"
+import Contact from "../components/Contact"
+import Blog from "../components/Blog"
 import "../styles/index.scss"
 
 
@@ -19,14 +19,14 @@ const IndexPage = () => {
 
       <div className="header">
         <h1>PORTFOLIO</h1>
-        <h3>By: Code and Play</h3>
+        <h3>By: M</h3>
       </div>
 
-      {/* <div className="navigation">
+      <div className="navigation">
         <button onClick={() => setNavSelected(AboutMe)}>About</button>
         <button onClick={() => setNavSelected(Blog)}>Blog</button>
         <button onClick={() => setNavSelected(Contact)}>Contact</button>
-      </div> */}
+      </div>
 
       <div className={`content-holder ${navSelected ? "show-content" : ""}`}>
         <div className="content-main">
